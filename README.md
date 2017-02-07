@@ -2,8 +2,25 @@
 Node.js API - Delivering content to server outside through various levels of security. #filetransfer
 
 ## Getting started
-- Install dependencies `npm i`
-- Start the server `npm run dev`
-- Run the tests `npm run test`
+- [X] Install dependencies `npm i`
+- [X] Start the server `npm run dev`
+- [X] Run the tests `npm t`
 
-### Are you a developer? See package.json for more scripts!
+### Endpoints
+- [X] POST /host
+```
+{
+  "host": $host_name
+}
+```
+- [X] GET /hosts
+- [X] POST /link
+```
+{
+  "source": $source_host_name
+  "dest": $dest_host_name
+  "description": $description
+}
+```
+- [X] GET /links
+- [X] GET /path/{A}/to/{B}, where A and B are hosts
