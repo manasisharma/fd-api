@@ -4,8 +4,10 @@
   "version": "1.0.0",
   "author": "Manasi Sharma <manasi0510sharma@gmail.com>",
   "dependencies": {
+    "async": "2.1.4",
     "blipp": "^2.3.0",
     "boom": "4.2.0",
+    "camelcase": "4.0.0",
     "confidence": "^3.0.1",
     "glob": "^7.1.0",
     "glue": "^4.0.0",
@@ -17,6 +19,8 @@
     "hapi-swagger": "7.6.0",
     "inert": "^4.0.2",
     "joi": "10.2.1",
+    "lodash": "4.17.4",
+    "path": "0.12.7",
     "scooter": "^4.0.0",
     "underscore": "1.8.3",
     "vision": "^4.1.0"
