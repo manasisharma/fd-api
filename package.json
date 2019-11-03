@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "code": "^4.0.0",
-    "eslint": "^3.5.0",
+    "eslint": "^6.6.0",
     "eslint-config-hapi": "^10.0.0",
     "eslint-plugin-hapi": "^4.0.0",
     "fixpack": "^2.3.1",
